@@ -1,0 +1,11 @@
+[build]
+builder = "nixpacks"
+buildCommand = "cd remed/backend && npm install"
+startCommand = "npm start"
+
+[deploy]
+startCommand = "cd remed/backend && npm start"
+
+[build.environment]
+NPM_CONFIG_PRODUCTION = "false"
+NODE_ENV = "production"

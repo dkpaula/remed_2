@@ -1,0 +1,23 @@
+{
+  "name": "remed",
+  "version": "1.0.0",
+  "description": "ReMed - Medicine reminder and inventory management system",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd remed/backend && npm start",
+    "dev": "cd remed/backend && npm run dev",
+    "install:all": "cd remed/backend && npm install && cd ../frontend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkpaula/remed.git"
+  },
+  "keywords": [
+    "medicine",
+    "reminder",
+    "inventory",
+    "health"
+  ],
+  "author": "ReMed Team",
+  "license": "ISC"
+}
