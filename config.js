@@ -2,8 +2,9 @@
 const dbConfig = {
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || 'samkit012425',
-  database: process.env.DB_NAME || 'remed'
+  password: process.env.DB_PASSWORD || 'Shane_092904',
+  database: process.env.DB_NAME || 'remed',
+  port: process.env.DB_PORT || 3306
 };
 
 // JWT configuration
@@ -21,4 +22,4 @@ module.exports = {
   dbConfig,
   jwtConfig,
   serverConfig
-}; 
+};

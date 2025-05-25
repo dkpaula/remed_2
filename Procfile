@@ -1,1 +1,1 @@
-web: cd remed/backend && npm start
+web: npm start
