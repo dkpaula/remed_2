@@ -1,7 +1,7 @@
 [build]
 builder = "nixpacks"
 buildCommand = "cd remed/backend && npm install"
-startCommand = "npm start"
+startCommand = "cd remed/backend && npm start"
 
 [deploy]
 startCommand = "cd remed/backend && npm start"
