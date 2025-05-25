@@ -4,9 +4,10 @@
   "description": "ReMed - Medicine reminder and inventory management system",
   "main": "server.js",
   "scripts": {
-    "start": "cd remed/backend && npm start",
+    "start": "node remed/backend/server.js",
     "dev": "cd remed/backend && npm run dev",
-    "install:all": "cd remed/backend && npm install && cd ../frontend && npm install"
+    "install:all": "cd remed/backend && npm install && cd ../frontend && npm install",
+    "build": "cd remed/backend && npm install"
   },
   "repository": {
     "type": "git",

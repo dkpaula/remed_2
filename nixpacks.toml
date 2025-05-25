@@ -1,0 +1,19 @@
+[phases.setup]
+nixPkgs = ['nodejs-18_x', 'nodePackages.npm']
+
+[phases.install]
+cmds = [
+  "cd remed/backend && npm ci"
+]
+
+[phases.build]
+cmds = [
+  "cd remed/backend && npm run build"
+]
+
+[start]
+cmd = "cd remed/backend && npm start"
+
+[build.environment]
+NPM_CONFIG_PRODUCTION = "false"
+NODE_ENV = "production"
