@@ -1,0 +1,29 @@
+{
+  "appId": "io.remed.app",
+  "appName": "ReMed",
+  "webDir": "dist",
+  "bundledWebRuntime": true,
+  "cordova": {},
+  "server": {
+    "cleartext": true,
+    "allowNavigation": ["*"],
+    "hostname": "localhost",
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "CapacitorStatusBar": {
+      "style": "dark"
+    },
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#999999",
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}
